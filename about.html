@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f2ec">
+  <meta name="description" content="Learn about Alex Morgan, an independent designer and developer.">
+  <title>About — Alex Morgan</title>
+  <style>
+    :root { --paper:#f5f2ec; --ink:#20211f; --muted:#77766f; --line:#d9d5cc; --accent:#d4fa52; --serif:Georgia,'Times New Roman',serif; }
+    * { box-sizing:border-box; } html { scroll-behavior:smooth; }
+    body { margin:0; background:var(--paper); color:var(--ink); font-family:Arial,Helvetica,sans-serif; }
+    a { color:inherit; text-decoration:none; } a:hover { text-decoration:underline; text-underline-offset:4px; }
+    .wrap { width:min(1120px,calc(100% - 48px)); margin:auto; }
+    header { height:82px; display:flex; align-items:center; justify-content:space-between; border-bottom:1px solid var(--line); }
+    .brand { font-size:15px; font-weight:700; letter-spacing:-.04em; } nav { display:flex; gap:30px; align-items:center; font-size:12px; color:#5c5b55; }
+    .availability { display:flex; align-items:center; gap:8px; font-size:11px; color:#5c5b55; } .dot { width:7px;height:7px;border-radius:50%;background:#77a53e;box-shadow:0 0 0 4px #77a53e20; }
+    .eyebrow { text-transform:uppercase;letter-spacing:.16em;font-size:10px;color:var(--muted);margin:0 0 24px; }
+    h1,h2 { font-family:var(--serif);font-weight:400;letter-spacing:-.055em; } h1 { font-size:clamp(58px,10vw,112px);line-height:.94;margin:0; } h1 em { color:#85837b; }
+    .intro { padding:100px 0 76px; max-width:880px; } .intro p { max-width:490px;color:#66655f;font-size:15px;line-height:1.8;margin:30px 0 0 8px; }
+    .story { border-top:1px solid var(--ink); padding:28px 0 110px; display:grid;grid-template-columns:1fr 1fr;gap:70px; }
+    .story h2 { font-size:clamp(38px,5vw,58px);line-height:1.04;margin:0;max-width:420px; }
+    .story-copy { color:#686760;font-size:14px;line-height:1.85;max-width:480px; } .story-copy p { margin:0 0 18px; }
+    .skills { display:flex;flex-wrap:wrap;gap:8px;margin-top:26px; } .skills span { border:1px solid var(--line);border-radius:50px;padding:9px 13px;font-size:10px;color:#55544e; }
+    .callout { background:#dce0d5; min-height:190px;display:flex;align-items:center;justify-content:space-between;padding:35px 7%;margin-bottom:100px;gap:20px; }
+    .callout h2 { font-size:clamp(32px,5vw,52px);margin:0; } .button { background:var(--accent);border-radius:99px;padding:14px 19px;font-size:11px;font-weight:bold;white-space:nowrap; }
+    footer { background:var(--ink);color:var(--paper);padding:25px 0; } .footer-bottom { display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;color:#aaa9a2;font-size:10px; } .socials { display:flex;gap:20px; }
+    @media(max-width:700px) { .wrap { width:min(100% - 36px,520px); } header { height:70px; } nav { gap:15px; } .availability { display:none; } .intro { padding:74px 0 58px; } .story { grid-template-columns:1fr;gap:24px;padding-bottom:70px; } .callout { margin-bottom:65px;display:block; } .button { display:inline-block;margin-top:24px; } }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <a class="brand" href="index.html">AM<span style="color:#8c8b83">.</span></a>
+      <nav aria-label="Main navigation"><a href="index.html#work">Work</a><a href="about.html" aria-current="page">About</a><a href="contact.html">Contact ↗</a></nav>
+      <div class="availability"><span class="dot"></span> Available for select projects</div>
+    </header>
+    <main>
+      <section class="intro">
+        <p class="eyebrow">A little about me</p>
+        <h1>Design with<br><em>thought behind it.</em></h1>
+        <p>I’m Alex Morgan, an independent designer and developer who enjoys making digital experiences feel clear, useful, and human.</p>
+      </section>
+      <section class="story">
+        <h2>Curiosity is part of the process.</h2>
+        <div class="story-copy">
+          <p>I work across strategy, visual identity, and product design. My process starts by listening and asking the right questions, then finding the simplest way to make an idea real.</p>
+          <p>In recent years, I’ve partnered with early-stage teams and established brands to shape products and identities people want to spend time with. I like thoughtful details, open collaboration, and work that makes a practical difference.</p>
+          <p>When I’m away from the screen, you’ll probably find me exploring a new neighborhood, visiting a gallery, or trying to keep a houseplant alive.</p>
+          <div class="skills" aria-label="Areas of work"><span>Art direction</span><span>Brand identity</span><span>Product design</span><span>Front-end</span><span>Creative strategy</span></div>
+        </div>
+      </section>
+      <section class="callout"><h2>Have a project in mind?</h2><a class="button" href="contact.html">Let’s talk ↗</a></section>
+    </main>
+  </div>
+  <footer><div class="wrap footer-bottom"><span>© 2025 Alex Morgan</span><div class="socials"><a href="https://www.linkedin.com/">LinkedIn ↗</a><a href="https://www.instagram.com/">Instagram ↗</a></div><a href="index.html">Home ↑</a></div></footer>
+</body>
+</html>
